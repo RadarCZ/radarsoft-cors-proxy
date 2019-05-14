@@ -1,0 +1,22 @@
+{
+  "name": "radarsoft-cors-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "watch": "nodemon -r esm src/index.js"
+  },
+  "keywords": [
+    "cors",
+    "proxy"
+  ],
+  "author": "Lukáš 'Radar' Kubíček",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "esm": "^3.2.22",
+    "express": "^4.16.4"
+  }
+}
