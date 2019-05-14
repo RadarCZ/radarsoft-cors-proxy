@@ -1,12 +1,11 @@
 {
   "name": "radarsoft-cors-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "watch": "nodemon -r esm src/index.js"
+    "watch": "nodemon src/index.js"
   },
   "keywords": [
     "cors",

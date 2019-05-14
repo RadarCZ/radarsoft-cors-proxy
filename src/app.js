@@ -1,9 +1,7 @@
-import express from 'express'
-import Axios from 'axios';
+const express = require('express')
+const Axios = require('axios')
 
 const app = express()
-
-app.set('port', 8880)
 
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*")
@@ -22,4 +20,4 @@ app.get('/*', async (req, res, next) => {
     }
 })
 
-export default app
+module.exports = app
